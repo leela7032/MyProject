@@ -16,7 +16,7 @@ import com.java.CrudOperations.repositories.ClientRepository;
 
 import jakarta.validation.Valid;
 
-@Controller
+@RestController
 @RequestMapping("/clients")
 public class ClientsController {
 
